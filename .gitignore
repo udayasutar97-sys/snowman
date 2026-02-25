@@ -1,0 +1,19 @@
+# Root dependencies
+node_modules/
+
+# Client
+client/node_modules/
+client/build/
+
+# Server
+server/node_modules/
+server/uploads/
+server/public/*.png
+
+# Env files
+.env
+server/.env
+client/.env
+
+# OS
+.DS_Store
